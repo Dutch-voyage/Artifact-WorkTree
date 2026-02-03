@@ -1,0 +1,285 @@
+{
+  "main": {
+    "id": "b5901a9117d04d78",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e248b2a00a4fe09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4a27705dbd0f6a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Artifact-Infer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Artifact-Infer"
+            }
+          },
+          {
+            "id": "fd44c560e257eabe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Progressive.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Progressive"
+            }
+          },
+          {
+            "id": "2adb2a8e55b44668",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HARD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HARD"
+            }
+          },
+          {
+            "id": "f641b0750f828fe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KV-Cache-Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "KV-Cache-Management"
+            }
+          },
+          {
+            "id": "be1eab09079c4f74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sparse-Attn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sparse-Attn"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17fcd09fff3eadc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec335bae81f34269",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b7a2859c96df7f7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d31e6ae9270a80ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "94c7414eabebabaf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5f3739deb6759b69",
+    "type": "split",
+    "children": [
+      {
+        "id": "15e851c2d64bbe7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c5b2d355f99aad4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CPP-train.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CPP-train"
+            }
+          },
+          {
+            "id": "f0ef7313f3bbbda1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CPP-train.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CPP-train"
+            }
+          },
+          {
+            "id": "88b60e795910dc1c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "20a46a870fb6c17f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4485227ae4c5839e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CPP-train.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CPP-train"
+            }
+          },
+          {
+            "id": "429e708ca35f4990",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "d4a27705dbd0f6a6",
+  "lastOpenFiles": [
+    "CPP-train.md",
+    "Unified-Chunk-Scheduler.md",
+    "Sparse-Attn.md",
+    "Agentic-RL.md",
+    "nano-Megatron.md",
+    "nano-RL.md",
+    "Artifact-Infer.md",
+    "Stream-VideoLLM.md",
+    "Stream-RL.md",
+    "HARD.md",
+    "2026-02-03.md",
+    "Untitled.canvas",
+    "Progressive.md",
+    "KV-Cache-Management.md",
+    "Quantization.md",
+    "[Progressive.md",
+    "CPP-Inference.md",
+    "Head-Adaptive.md",
+    "PP-inference.md",
+    "Self-evolve.md",
+    "Chunked-Prefill.md",
+    "RDMA-comm.md",
+    "Tooluse-Node.md",
+    "DiffusionLLM.md",
+    "MoE.md",
+    "create a link.md",
+    "Untitled.base",
+    "Welcome.md"
+  ]
+}
