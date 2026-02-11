@@ -1,5 +1,5 @@
 #base
-[[nano-RL]]
+[[Artifact-RL]]
 [[Chunked-Prefill]] [[PP-inference]]
 [[MoE]]
 [[KV-Cache-Management]]
