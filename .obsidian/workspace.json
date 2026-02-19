@@ -1,90 +1,38 @@
 {
   "main": {
-    "id": "b5901a9117d04d78",
+    "id": "67f2ea9816705ae1",
     "type": "split",
     "children": [
       {
-        "id": "6e248b2a00a4fe09",
+        "id": "bb567e6b2240c922",
         "type": "tabs",
         "children": [
           {
-            "id": "d4a27705dbd0f6a6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "e2716052a50837f3",
+            "id": "03862925556d1af0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "comm/RDMA-comm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "RDMA-comm"
             }
           },
           {
-            "id": "fd44c560e257eabe",
+            "id": "2329f2729f011730",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progressive.md",
+                "file": "comm/FluxWay Unified Layout Protocol (ULP) Specification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Progressive"
-            }
-          },
-          {
-            "id": "2adb2a8e55b44668",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HARD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HARD"
-            }
-          },
-          {
-            "id": "f641b0750f828fe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KV-Cache-Management.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "KV-Cache-Management"
-            }
-          },
-          {
-            "id": "be1eab09079c4f74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sparse-Attn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sparse-Attn"
+              "title": "FluxWay Unified Layout Protocol (ULP) Specification"
             }
           }
         ],
@@ -94,15 +42,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "17fcd09fff3eadc5",
+    "id": "019551c37245bd69",
     "type": "split",
     "children": [
       {
-        "id": "ec335bae81f34269",
+        "id": "5b641278e55cacac",
         "type": "tabs",
         "children": [
           {
-            "id": "1b7a2859c96df7f7",
+            "id": "e21db7903687dedc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -115,7 +63,7 @@
             }
           },
           {
-            "id": "d31e6ae9270a80ec",
+            "id": "e2e7b0eb749d5bd0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -132,7 +80,7 @@
             }
           },
           {
-            "id": "94c7414eabebabaf",
+            "id": "939914421e820400",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -145,23 +93,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 217.5
   },
   "right": {
-    "id": "5f3739deb6759b69",
+    "id": "a9e8a5c71945d847",
     "type": "split",
     "children": [
       {
-        "id": "15e851c2d64bbe7d",
+        "id": "8c5a0a546c71ec29",
         "type": "tabs",
         "children": [
           {
-            "id": "2c5b2d355f99aad4",
+            "id": "624601788c430d3c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPP-train.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,25 +118,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CPP-train"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "f0ef7313f3bbbda1",
+            "id": "7539c5d8f4260464",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPP-train.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CPP-train"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "88b60e795910dc1c",
+            "id": "e3b6fa27f746d9aa",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -204,7 +150,7 @@
             }
           },
           {
-            "id": "20a46a870fb6c17f",
+            "id": "a1eeba9b4cd37bbb",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -218,36 +164,25 @@
             }
           },
           {
-            "id": "4485227ae4c5839e",
+            "id": "55ac07b7440329d7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPP-train.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CPP-train"
-            }
-          },
-          {
-            "id": "429e708ca35f4990",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,43 +192,46 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "e2716052a50837f3",
+  "active": "2329f2729f011730",
   "lastOpenFiles": [
-    "figures/tree.png",
-    "figures/Pasted image 20260211144945.png",
-    "figures",
-    "Pasted image 20260211144945.png",
-    "README.md",
     "RDMA-comm.md",
-    "Artifact-RL.md",
-    "Artifact-Megatron.md",
-    "Artifact-Infer.md",
-    "CPP-train.md",
-    "Unified-Chunk-Scheduler.md",
-    "Sparse-Attn.md",
-    "Agentic-RL.md",
-    "Stream-VideoLLM.md",
+    "src/agent_proxy/__pycache__/proxy.cpython-313.pyc",
+    "src/agent_proxy/__pycache__/logger.cpython-313.pyc",
+    "src/agent_proxy/__pycache__/cli.cpython-313.pyc",
+    "src/agent_proxy/__pycache__/__init__.cpython-313.pyc",
+    "src/agent_proxy/proxy.py",
+    "src/agent_proxy/logger.py",
+    "src/agent_proxy/cli.py",
+    "src/agent_proxy/__pycache__",
+    "src/agent_proxy/__init__.py",
+    "src/__pycache__/proxy.cpython-313.pyc",
+    "comm/RDMA-comm.md",
+    "comm/FluxWay Unified Layout Protocol (ULP) Specification.md",
+    "README.md",
+    "figures/tree.png",
     "Stream-RL.md",
-    "HARD.md",
-    "2026-02-03.md",
-    "Untitled.canvas",
-    "Progressive.md",
-    "KV-Cache-Management.md",
-    "Quantization.md",
-    "[Progressive.md",
+    "CPP-train.md",
+    "Artifact-Infer.md",
     "CPP-Inference.md",
-    "Head-Adaptive.md",
-    "PP-inference.md",
-    "Self-evolve.md",
+    "Artifact-Megatron.md",
+    "HARD.md",
     "Chunked-Prefill.md",
     "Tooluse-Node.md",
-    "DiffusionLLM.md",
+    "Sparse-Attn.md",
+    "KV-Cache-Management.md",
+    "Agentic-RL.md",
+    "Artifact-RL.md",
+    "PP-inference.md",
+    "Stream-VideoLLM.md",
     "MoE.md",
-    "Untitled.base"
+    "Unified-Chunk-Scheduler.md",
+    "Progressive.md",
+    "Head-Adaptive.md",
+    "Self-evolve.md",
+    "Quantization.md",
+    "DiffusionLLM.md"
   ]
 }
