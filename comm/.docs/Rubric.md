@@ -1,0 +1,8 @@
+### Technical Essence Extraction: Principles & Evaluation Rubric
+
+| Protocol Pillar | Principle: The "Must-Know" Strategy | Evaluation Rubric (1-5 Scale) |
+| --- | --- | --- |
+| **1. Essence-First** | **Identify the "Core":** Starters must ignore 90% of the code (logging, CLI, boilerplate) to find the 10% that does the work (e.g., the primary math kernel or state machine). | **5:** Focused exclusively on the primary logic. <br><br>**1:** Distracted by setup scripts or documentation formatting. |
+| **2. Feasibility Boundary (80/20)** | **Black-Box the Utilities:** Treat standard libraries and helper wrappers as "given." Only dive into code that represents a unique architectural choice or a performance bottleneck. | **5:** Correctly identified and bypassed standard "Can-do" utilities.<br><br>**1:** Wasted time reverse-engineering standard library functions. |
+| **3. Grounded Delta (Justification)** | **Anchor Every Fact:** Every new concept must be tied to a specific file/line and must explain a "Knowledge Delta"—what is new here that wasn't in the previous file? | **5:** Every insight is anchored to a specific file path and adds a unique concept.<br><br>**1:** Vague descriptions with no source anchors or redundant tasks. |
+| **4. Foundational Linkage** | **Bridge the Basics:** For every complex mechanism (e.g., RDMA), identify the "Must-Know" prerequisite (e.g., memory pinning) to ensure the starter doesn't get lost in advanced logic. | **5:** Explicitly identifies the prerequisite concepts needed for the core logic.<br><br>**1:** Assumes deep expert knowledge; leaves gaps for starters. |

@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "bb567e6b2240c922",
+        "id": "e84627b0c35b6a51",
         "type": "tabs",
         "children": [
           {
-            "id": "03862925556d1af0",
+            "id": "782ba140d8fa4d6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "comm/RDMA-comm.md",
+                "file": "tutorial/MoE load balancing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RDMA-comm"
-            }
-          },
-          {
-            "id": "2329f2729f011730",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "comm/FluxWay Unified Layout Protocol (ULP) Specification.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FluxWay Unified Layout Protocol (ULP) Specification"
+              "title": "MoE load balancing"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -186,52 +171,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2329f2729f011730",
+  "active": "782ba140d8fa4d6e",
   "lastOpenFiles": [
-    "RDMA-comm.md",
+    "tutorial/Partial Attention.md",
+    "figures/Pasted image 20260313144647.png",
+    "Excalidraw/Drawing 2026-03-13 16.47.32.excalidraw.md",
+    "figures/Pasted image 20260313170548.png",
+    "figures/Pasted image 20260313170539.png",
+    "figures/Pasted image 20260313170521.png",
+    "tutorial/Attention and KV Cache.md",
+    "tutorial/MoE load balancing.md",
+    "figures/Pasted image 20260313165456.png",
+    "Excalidraw/Drawing 2026-03-13 16.53.44.excalidraw.md",
+    "figures/Pasted image 20260313165322.png",
+    "Excalidraw/Drawing 2026-03-13 16.52.10.excalidraw.md",
+    "figures/Pasted image 20260313165151.png",
+    "figures/Pasted image 20260313165112.png",
+    "Excalidraw/Drawing 2026-03-13 16.43.24.excalidraw.md",
+    "figures/Pasted image 20260313164834.png",
+    "figures/Pasted image 20260313164721.png",
+    "Excalidraw/Drawing 2026-03-13 15.45.11.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-13 15.42.52.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-13 15.01.29.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-12 11.54.26.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-13 15.28.20.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-13 15.41.32.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-13 15.11.28.excalidraw.md",
+    "tutorial/Collectives.md",
+    "Excalidraw/Drawing 2026-03-13 11.32.04.excalidraw.md",
+    "comm/RDMA-comm.md",
+    "Work-Log/To-do list (2026-02).md",
+    "comm/FluxWay Unified Layout Protocol (ULP) Specification.md",
+    "comm/LM-Cache(p2p KV Cache Sharing).md",
+    "Excalidraw/Drawing 2026-03-12 11.51.18.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-12 11.33.27.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-12 11.19.50.excalidraw.md",
+    "Work-Log/2026-03-12.md",
+    "Work-Log/2026-03-07.md",
+    "tutorial",
+    "Excalidraw",
+    "Work-Log",
+    "comm/MoE-trace",
+    "comm/analysis-mm",
+    "comm/analysis-kimi",
+    "comm/analysis-glm",
     "src/agent_proxy/__pycache__/proxy.cpython-313.pyc",
     "src/agent_proxy/__pycache__/logger.cpython-313.pyc",
-    "src/agent_proxy/__pycache__/cli.cpython-313.pyc",
-    "src/agent_proxy/__pycache__/__init__.cpython-313.pyc",
-    "src/agent_proxy/proxy.py",
-    "src/agent_proxy/logger.py",
-    "src/agent_proxy/cli.py",
-    "src/agent_proxy/__pycache__",
-    "src/agent_proxy/__init__.py",
-    "src/__pycache__/proxy.cpython-313.pyc",
-    "comm/RDMA-comm.md",
-    "comm/FluxWay Unified Layout Protocol (ULP) Specification.md",
-    "README.md",
-    "figures/tree.png",
-    "Stream-RL.md",
-    "CPP-train.md",
-    "Artifact-Infer.md",
-    "CPP-Inference.md",
-    "Artifact-Megatron.md",
-    "HARD.md",
-    "Chunked-Prefill.md",
-    "Tooluse-Node.md",
-    "Sparse-Attn.md",
-    "KV-Cache-Management.md",
-    "Agentic-RL.md",
-    "Artifact-RL.md",
-    "PP-inference.md",
-    "Stream-VideoLLM.md",
-    "MoE.md",
-    "Unified-Chunk-Scheduler.md",
-    "Progressive.md",
-    "Head-Adaptive.md",
-    "Self-evolve.md",
-    "Quantization.md",
-    "DiffusionLLM.md"
+    "src/agent_proxy/__pycache__/cli.cpython-313.pyc"
   ]
 }
