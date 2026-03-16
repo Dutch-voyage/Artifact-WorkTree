@@ -1,7 +1,7 @@
-![[attention.png]]
+![](../figures/attention.png)
 
-![[attention_decode.png]]
+![](../figures/attention_decode.png)
 
-![[attention_prefill.png]]
+![](../figures/attention_prefill.png)
 
-![[attention_decode2.png]]
+![](../figures/attention_decode2.png)

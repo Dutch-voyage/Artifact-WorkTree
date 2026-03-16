@@ -92,9 +92,9 @@ The beauty of this notation is that the operator $\oplus$ is **associative**. Be
 
 As long as you track the tuple $\begin{bmatrix} \mathbf{o} \\ \rm{SE} \end{bmatrix}$, you can reconstruct the exact global attention output from any number of partial computations.
 
-![[Pasted image 20260313150710.png]]
+![](../figures/Pasted_image_20260313150710.png)
 
-![[Pasted image 20260313151600.png]]
+![](../figures/Pasted_image_20260313151600.png)
 
 
 >[!question]
@@ -103,13 +103,13 @@ As long as you track the tuple $\begin{bmatrix} \mathbf{o} \\ \rm{SE} \end{bmatr
 ## Chunked Prefill 
 [Streamlining AI Inference Performance and Deployment with NVIDIA TensorRT-LLM Chunked Prefill \| NVIDIA Technical Blog](https://developer.nvidia.com/blog/streamlining-ai-inference-performance-and-deployment-with-nvidia-tensorrt-llm-chunked-prefill/)
 TPOT time per output token 
-![[Pasted image 20260313162148.png]]
+![](../figures/Pasted_image_20260313162148.png)
 [\[2308.16369\] SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/abs/2308.16369)
-![[Pasted image 20260313163329.png]]
+![](../figures/Pasted_image_20260313163329.png)
 ## Chunked Pipeline Parallelism 
 [Pipeline Parallelism in SGLang: Scaling to Million-Token Contexts and Beyond \| LMSYS Org](https://lmsys.org/blog/2026-01-15-chunked-pipeline/)
-![[Pasted image 20260313163507.png]]
-![[Pasted image 20260313163527.png]]
+![](../figures/Pasted_image_20260313163507.png)
+![](../figures/Pasted_image_20260313163527.png)
 
 
 ## Chunked Prefill and Context Parallelism
@@ -118,6 +118,6 @@ TPOT time per output token
 > Chunked prefill save KV cache; 
 > Context Parallelism save O (Attention state) cache
 ### Context Parallelism 
-![[Pasted image 20260315183111.png]]
+![](../figures/Pasted_image_20260315183111.png)
 ### Chunked Prefill
-![[Pasted image 20260315182912.png]]
+![](../figures/Pasted_image_20260315182912.png)

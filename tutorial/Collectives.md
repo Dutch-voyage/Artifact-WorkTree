@@ -1,21 +1,21 @@
 ## broadcast
 
-![[Pasted image 20260312112946.png]]
+![](../figures/Pasted_image_20260312112946.png)
 
 ## scatter
-![[Pasted image 20260312113645.png]]
-## gather 
+![](../figures/Pasted_image_20260312113645.png)
+## gather
 
-![[Pasted image 20260312115144.png]]
-## reduce 
+![](../figures/Pasted_image_20260312115144.png)
+## reduce
 
-![[Pasted image 20260312144354.png]]
+![](../figures/Pasted_image_20260312144354.png)
 
-## all-reduce 
+## all-reduce
 
-![[Pasted image 20260312145000.png]]
+![](../figures/Pasted_image_20260312145000.png)
 
 
-## Column parallel linear 
+## Column parallel linear
 
-![[Pasted image 20260313144647.png]]
+![](../figures/Pasted_image_20260313144647.png)

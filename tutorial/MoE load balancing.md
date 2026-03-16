@@ -1,15 +1,15 @@
 ## Steps in MoE Inference 
-![[Pasted image 20260315184734.png]]
+![](../figures/Pasted_image_20260315184734.png)
 ## MoE load balance 
-![[Pasted image 20260313165112.png]]
-![[Pasted image 20260313165151.png]]
+![](../figures/Pasted_image_20260313165112.png)
+![](../figures/Pasted_image_20260313165151.png)
 ## Solution 1: Train with load-balancing loss
 pass 
 ## Solution 2: Duplicate "hot" experts
-![[Pasted image 20260313165322.png]]
+![](../figures/Pasted_image_20260313165322.png)
 ## Solution 3: Token dropping
 
-![[Pasted image 20260313165456.png]]
+![](../figures/Pasted_image_20260313165456.png)
 
 ## Where to Optimize
 ### Fused MoE
