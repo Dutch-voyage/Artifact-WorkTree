@@ -1,3 +1,6 @@
+## Steps in MoE Inference 
+![[Pasted image 20260315184734.png]]
+## MoE load balance 
 ![[Pasted image 20260313165112.png]]
 ![[Pasted image 20260313165151.png]]
 ## Solution 1: Train with load-balancing loss
@@ -8,11 +11,28 @@ pass
 
 ![[Pasted image 20260313165456.png]]
 
-## New Scenario: Chunked Prefill 
+## Where to Optimize
+### Fused MoE
+Combine 5 steps in one kernel
+### NCCL -> NVSHMEM
 
-### Question 1: does chunking increase/decrease imbalance?
+NCCL requires implicit synchronization across devices. 
+NVSHMEM is fully-asynchronized and friendly for small packet
+
+(similar to RDMA, first register then directly access the remote memory)
+
+e.g. UCX/triton-distributed/DeepEP
+### dynamic chunking 
+#### Context Parallelism 
+(Ring attention in Prefill)
+
+#### Context Pipeline Parallelism 
+(Chunked Prefill)
+## New Scenario: Chunked Prefill / Context Parallel  
+
+### Question 1: does chunking increase/decrease imbalance? 
 Guess: imbalance is increased 
-### Question 2: Can experts routing be predicted 
+### Question 2: Can experts routing be predicted ?  
 Expert Prefetching 
 [\[2509.07379\] DuoServe-MoE: Dual-Phase Expert Prefetch and Cache Scheduling for Efficient MoE LLM Inference](https://arxiv.org/abs/2509.07379)
 [\[2511.10676\] Pre-Attention Expert Prediction and Prefetching for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2511.10676)
