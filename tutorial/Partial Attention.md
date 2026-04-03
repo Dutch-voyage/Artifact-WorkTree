@@ -31,14 +31,17 @@ $$\begin{equation}
 \mathbf{o}(I) = \sum_{i \in I} \rm{Softmax}(\rm{SE}_{(i)})\mathbf{v}_{(i)} = \frac{\sum_{i \in I} \rm{SE}_{(i)}\mathbf{v}_{(i)}}{\rm{SE}(I)},
 \end{equation}
 $$
+
 We define the **Attention State** of a tier $I$ as the tuple $\begin{bmatrix} \mathbf{o}(I) \\ \rm{SE}(I) \end{bmatrix}$, which fully encapsulates the partial computation of $I$. 
 To aggregate results from multiple tiers (e.g., a Sparse Tier $I$ and a Dense Tier $J$), a binary **Merge Operator** $\oplus$ can be applied to merge the partial outputs for the complete outputs:
+
 $$\begin{equation}
 \begin{aligned}
 \begin{bmatrix} \mathbf{o}(I \cup J) \\ \rm{SE}(I \cup J) \end{bmatrix} &= \begin{bmatrix} \mathbf{o}(I) \\ \rm{SE}(I) \end{bmatrix} \oplus \begin{bmatrix} \mathbf{o}(J) \\ \rm{SE}(J) \end{bmatrix} \\
 &= \begin{bmatrix} \frac{\mathbf{o}(I) \rm{SE}(I) + \mathbf{o}(J) \rm{SE}(J)}{\rm{SE}(I) + \rm{SE}(J)} \\ \rm{SE}(I) + \rm{SE}(J) \end{bmatrix}.
 \end{aligned}
 \end{equation}$$
+
 ## Flash Attention 
 
 ### FlashAttention: The Block-Wise Derivation
