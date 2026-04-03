@@ -17,6 +17,7 @@ $$
 To seamlessly compute attention across these physically separated tiers, we can utilize a composable {Attention State} algebra proposed by FlashInfer originally designed for Prefix Caching.
 
 Recall that standard self-attention for a query $\mathbf{q}$ and a set of KV pairs indexed by $I$ is computed as:
+
 $$
 \begin{equation}
 \text{Attention}(\mathbf{q}, I) = 
@@ -27,7 +28,7 @@ $$
 The denominator represents the total attention mass, which we term the **Sum of Exponentials** ($\rm{SE}(I)$). The numerator represents the unnormalized weighted sum of value vectors. $\mathbf{o}(I)$ is defined as the attention result restricted solely to the subset $I$:
 
 $$\begin{equation}
-\mathbf{o}(I) = \sum_{i \in I} \operatorname{Softmax}(\rm{SE}_{(i)})\mathbf{v}_{(i)} = \frac{\sum_{i \in I} \rm{SE}_{(i)}\mathbf{v}_{(i)}}{\rm{SE}(I)},
+\mathbf{o}(I) = \sum_{i \in I} \rm{Softmax}(\rm{SE}_{(i)})\mathbf{v}_{(i)} = \frac{\sum_{i \in I} \rm{SE}_{(i)}\mathbf{v}_{(i)}}{\rm{SE}(I)},
 \end{equation}
 $$
 We define the **Attention State** of a tier $I$ as the tuple $\begin{bmatrix} \mathbf{o}(I) \\ \rm{SE}(I) \end{bmatrix}$, which fully encapsulates the partial computation of $I$. 
