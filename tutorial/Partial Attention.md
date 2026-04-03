@@ -9,7 +9,7 @@ $$
 \end{aligned}
 $$
 
-[[Attention and KV Cache]]
+[Attention and KV Cache](Attention%20and%20KV%20Cache.md)
 
 ## Partial Attention
 [Cascade Inference: Memory Bandwidth Efficient Shared Prefix Batch Decoding \| FlashInfer](https://flashinfer.ai/2024/02/02/cascade-inference.html)

@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tutorial/Collectives.md",
+                "file": "Unified-Chunk-Scheduler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Collectives"
+              "title": "Unified-Chunk-Scheduler"
             }
           },
           {
-            "id": "cfa433a439ce0d24",
+            "id": "ae4855de235d0938",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tutorial/Attention and KV Cache.md",
+                "file": "tutorial/MoE load balancing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attention and KV Cache"
+              "title": "MoE load balancing"
             }
           }
         ],
@@ -197,12 +197,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfa433a439ce0d24",
+  "active": "ae4855de235d0938",
   "lastOpenFiles": [
-    "tutorial/Collectives.md",
-    "tutorial/Context Parallelism and Sequence Parallelism.md",
     "tutorial/Partial Attention.md",
+    "openquestions/Question - How to roll back a model.md",
+    "roadmaps/tier2_project.md",
+    "roadmaps/tier1_global.md",
+    "roadmaps",
+    "openquestions/Question - what are codes easy to develop.md",
+    "openquestions/Question - What are good benchmarks.md",
+    "openquestions/Question - what are good benchmarks.md",
+    "Unified-Chunk-Scheduler.md",
+    "openquestions",
+    "comm/UCX.md",
+    "Tooluse-Node.md",
+    "RDMA-comm.md",
+    "comm/RDMA-comm.md",
+    "comm/stdexec(P2300).md",
+    "tutorial/Collectives.md",
+    "Work-Log/To-do list (2026-03).md",
+    "Work-Log/To-do list (2026-02).md",
+    "Work-Log/2026-03-07.md",
+    "Work-Log/2026-03-12.md",
     "tutorial/MoE load balancing.md",
+    "tutorial/Context Parallelism and Sequence Parallelism.md",
+    "tutorial/Attention and KV Cache.md",
     "figures/Pasted_image_20260315184734.png",
     "figures/Pasted_image_20260315183111.png",
     "figures/Pasted_image_20260315182912.png",
@@ -219,30 +238,12 @@
     "Excalidraw/Drawing 2026-03-15 18.38.25.excalidraw.md",
     "Excalidraw/Drawing 2026-03-15 18.29.31.excalidraw.md",
     "Excalidraw/Drawing 2026-03-15 18.23.19.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-15 18.06.13.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-15 18.04.40.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-15 17.46.22.excalidraw.md",
-    "tutorial/Attention and KV Cache.md",
-    "Excalidraw/Drawing 2026-03-13 16.47.32.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 16.53.44.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 16.52.10.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 16.43.24.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 15.45.11.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 15.42.52.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 15.01.29.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-12 11.54.26.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 15.28.20.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 15.41.32.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 15.11.28.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-13 11.32.04.excalidraw.md",
     "tutorial",
     "Excalidraw",
     "Work-Log",
     "comm/MoE-trace",
     "comm/analysis-mm",
     "comm/analysis-kimi",
-    "comm/analysis-glm",
-    "src/agent_proxy/__pycache__/proxy.cpython-313.pyc",
-    "src/agent_proxy/__pycache__/logger.cpython-313.pyc"
+    "comm/analysis-glm"
   ]
 }
